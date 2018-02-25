@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="all" href="styles2.css">
+	<link rel="stylesheet" type="text/css" media="all" href="animate.css">
+	<title>#</title>
+</head>
+
+
+<body>
+<div class="container-fluid">
+	<div class="wrapper">
+		<div class="logotxt">
+			<h1>Service Jam Singapore</h1>
+			<p class="sublogo" style="opacity:0;">2018 9th-11th March</p>
+		</div>
+
+
+  <div class="row">
+	<section class="col-md-6 col-lg-3" style="margin-bottom: 60px;">
+		<h4 class="logo1-title" style="opacity:0;">held in:</h4>
+		<img class="logo1" style="opacity:0;" src="img/logo1-a.png" width="200" height="100" alt="logo1">
+	</section>
+	<section class="col-md-6 col-lg-3" style="margin-bottom: 60px;">
+		<h4 class="logo2-title" style="opacity:0;">a programme of:</h4>
+		<img class="logo2" style="opacity:0;" src="img/logo2-a.png" width="256" height="100" alt="logo2">
+	</section>
+	<section class="col-md-6 col-lg-3" style="margin-bottom: 60px;">
+		<h4 class="logo3-title" style="opacity:0;">supported by:</h4>
+		<img class="logo3" style="opacity:0;" src="img/logo3-a.png" width="300" height="100" alt="logo3">
+	</section>
+	<section class="col-md-6 col-lg-3" style="margin-bottom: 60px;">
+		<h4 class="logo4-title" style="opacity:0;">host venue:</h4>
+		<img class="logo4" style="opacity:0;" src="img/logo4-a.png" width="179" height="100" alt="logo4">
+	</section>
+</div>
+
+</div>
+</div>
+
+	
+
+<!-- scripts -->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">
+$(function(){
+  $('.logotxt h1').addClass('animated fadeInUp');
+
+  setTimeout(function() { // animate logo tagline
+    $('.sublogo').show().addClass('animated fadeInUp');
+  }, 500);
+    
+  setTimeout(function(){ // animate "featured in" text
+    $('.featured p').show().addClass('animated fadeInUp');
+  }, 650);
+  
+  setTimeout(function(){ // chain logo animations
+  	$('.logo1-title').show().addClass('animated fadeInDown');
+    $('.logo1').show().addClass('animated fadeInDown');
+    
+    setTimeout(function(){  // animate mashable logo
+      $('.logo2-title').show().addClass('animated fadeInDown');
+      $('.logo2').show().addClass('animated fadeInDown');
+    }, 200);
+    
+    setTimeout(function(){ // animate cnet logo
+    	$('.logo3-title').show().addClass('animated fadeInDown');
+      $('.logo3').show().addClass('animated fadeInDown');
+    }, 400);
+    
+    setTimeout(function(){ // animate verge logo
+    	$('.logo4-title').show().addClass('animated fadeInDown');
+      $('.logo4').show().addClass('animated fadeInDown');
+    }, 500);
+    
+   
+  }, 700);
+});
+</script>
+</body>
+</html>
+
+
+
